@@ -15,13 +15,15 @@
 
   <body>
 
-    <h1>User Login</h1>
+    <h1>Account Login</h1>
 
-    <form onsubmit="return validate()" action="/Sales Manager Dashboard/input data/html1.htm">
-        
-        <input id="uname" type="text" placeholder="username">
+    <form id="login_form" onsubmit="return validate()" action="#">
 
-        <input id="pword" type="password" placeholder="password">
+        <label for="username">Username</label><br>
+        <input id="uname" type="text" placeholder="username"><br>
+
+        <label for="password">Password</label><br>
+        <input id="pword" type="password" placeholder="password"><br>
 
         <button type="submit">Login</button>
     </form>
