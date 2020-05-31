@@ -1,153 +1,67 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
+
 <head>
-<title>Page Title</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-* {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: Arial;
-  margin: 0;
-  background-color:#17a2b8;
-}
-
-
-input[type=text], select, textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
-}
-
-input[type=submit] {
-  background-color: black;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  cursor: pointer;
-}
-
-.container {
-  border-radius: 5px;
-  background-color:black;
-  padding: 10px;
-}
-
-
-.column {
-  float: left;
-  width: 50%;
-  position:relative;
-  left:25%;
-  padding: 50px;
-
-}
-
-
-@media screen and (max-width: 600px) {
-  .column, input[type=submit] {
-    width: 100%;
-    margin-top: 0;
-  }
-}
-</style>
+  <title>Page Title</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="/css/main.css">
 </head>
-<body>
 
-<div class="container">
-  <div style="text-align:center">
-    <h2><div style="color:white">PRODUCTS DETAILS</h2>
-  </div>
- 
-    <div class="column">
-      <form action="/action_page.php">
+  <body class="text-white">
+
+    <div class="container">
+
+      <div class="jumboron bg-dark p-5">
+        <h1 class="text-center m-0">PRODUCT DETAILS</h1>
+      </div>
+  
+      <form class="bg-info p-5" action="/action_page.php">
+
         <label for="date&time">Date & Time:</label>
-        <input type="datetime-local" id="date&time" name="date&time">
-        </form><p>
-        </p>
-        <form action="/action_page.php">
+        <input type="datetime-local" id="date&time" name="date&time"><br><br>
+
         <label for="pname">Product Name</label>
         <select id="pname" name="pname">
           <option value="0">(Select product)</option>
-          <option value="1">
-MUNCHEE BOURBON</option>
-          <option value="2">
-MUNCHEE LEMON CREAM</option>
-          <option value="3">
-
-
-MUNCHEE ORANGE CREAM</option>
-          <option value="4">
-
-MUNCHEE CHOCOLATE CREAM ROUNDZ</option>
-          <option value="5">
-MUNCHEE CHOCO CREAM</option>
-          <option value="6">
-
-MUNCHEE MILK CREAM BISCUITS</option>
-          <option value="7">MUNCHEE CHOCOLATE MARIE
-
-
-</option>
-          <option value="8">
-
-MUNCHEE SUPER CREAM CRACKER</option>
-          <option value="9">
-MUNCHEE LEMON PUFF
-
-</option>
+          <option value="1">MUNCHEE BOURBON</option>
+          <option value="2">MUNCHEE LEMON CREAM</option>
+          <option value="3">MUNCHEE ORANGE CREAM</option>
+          <option value="4">MUNCHEE CHOCOLATE CREAM ROUNDZ</option>
+          <option value="5">MUNCHEE CHOCO CREAM</option>
+          <option value="6">MUNCHEE MILK CREAM BISCUITS</option>
+          <option value="7">MUNCHEE CHOCOLATE MARIE</option>
+          <option value="8">MUNCHEE SUPER CREAM CRACKER</option>
+          <option value="9">MUNCHEE LEMON PUFF</option>
           <option value="10">MUNCHEE GIFT ASSORTMENT</option>
-          <option value="11">
-
-
-MUNCHEE CHOCOLATE PUFF
-
-
-
-</option>
-          <option value="12">MUNCHEE KALO
-
-</option>
+          <option value="11">MUNCHEE CHOCOLATE PUFF</option>
+          <option value="12">MUNCHEE KALO</option>
           <option value="13">MUNCHEE LITE MARIE</option>
-          <option value="14">
-MUNCHEE TIKIRI MARIE
-
-
-
-
-
-</option>
-          <option value="15">
-
-
-
-
-
-
-MUNCHEE CUSTARD CREAM
-
-</option>
+          <option value="14">MUNCHEE TIKIRI MARIE</option>
+          <option value="15">MUNCHEE CUSTARD CREAM</option>
         </select>
-        <label for="bprice">One Piece Buying Price: (RS) </label>
-        <input type="text" id="bprice" name="bprice" placeholder="Enter a piece Price..(EX:150.00)">
-        <label for="sprice">One Piece Selling Price: (RS) </label>
-        <input type="text" id="sprice" name="sprice" placeholder="Enter a piece Price..(EX:150.00)">
-        <label for="quantity">No Of Pieces:</label>
-        <input type="number" id="quantity" name="quantity"> <p> </p>
-        <label for="subject">Remark</label>
-        <textarea id="subject" name="subject" placeholder="Write something.." style="height:80px"></textarea>
-        <input type="submit" value="Submit">
+          
+          <label for="bprice">One Piece Buying Price: (RS) </label>
+          <input type="text" id="bprice" name="bprice" placeholder="Enter a piece Price..(EX:150.00)">
+          <label for="sprice">One Piece Selling Price: (RS) </label>
+          <input type="text" id="sprice" name="sprice" placeholder="Enter a piece Price..(EX:150.00)">
+          <label for="quantity">No Of Boxes:</label>
+          <input type="number" id="quantity" name="quantity">
+          <label for="quantity">No Of Pieces:</label>
+          <input type="number" id="quantity" name="quantity"><br>
+          <label for="subject">Remark</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:80px"></textarea>
+          <button type="submit" class="btn btn-dark btn-lg">Submit</button>
       </form>
     </div>
-  </div>
-</div>
 
-</body>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+  </body>
 </html>
 
