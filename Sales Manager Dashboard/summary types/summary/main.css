@@ -21,6 +21,7 @@ body{
     text-align: center;
     background: #343a40;
     color: #fff;
+    margin: 0px auto;
 }
     
 .header2 h1{
@@ -33,6 +34,23 @@ body{
     width: 40%; 
     padding: 5px;
     background: #17a2b8;
+    margin: 0px auto;
+}
+
+.date{
+    color: #fff;
+}
+
+
+input[type=date]{
+    width: 40%;
+    height: 20px;
+    padding: 5px;
+    margin: 0px auto;
+}
+
+#submission {
+  text-align: center;
 }
 
 
@@ -40,18 +58,18 @@ table{
     border-collapse: collapse;
 }
 
-
 th{
     text-align: left;
     background-color: #343a40;
     color: #fff;
-    padding: 4px 30px 4px 8px;
+    padding: 4px 10px 10px 10px;
 }   
 
 
 td{
     border: 1px solid #e3e3e3;
     padding: 4px 8px;
+    border-bottom-color: black;
 }
 
 tr:nth-child(odd) td{
