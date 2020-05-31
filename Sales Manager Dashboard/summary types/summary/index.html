@@ -1,93 +1,55 @@
 <!DOCTYPE html>
 
 <html lang="en">
+    
     <head>
         <meta charset="utf-8"/>
-        <title>Summary</title>
-    
+        <title> HTML tables</title>
+        <link rel="stylesheet" href="main.css" type="text/css" media="screen,projection"/>
     </head>
-<style>
-    .header{
-        padding: 20px;
-        text-align: center;
-        background: #fff;
-        color: blue;
-    }
-
-    .h{
-        font-size: 18px;
-    }
-
-    table{
-        border-collapse: collapse;
-    }
-
-    th{
-        text-align: left;
-        background-color: #4a766e;
-        color: #fff;
-        padding: 4px 30px 1px 8px;
-    }
-
-    td{
-        border: 1px solid #e3e3e3;
-        padding: 4px 8px;
-    }
-
-    tr:nth-child(odd) td{
-        background-color: #e7edf0;
-    }
+     
     
-    .summary{
-        background: #1594e5;
-        color: #fff;
-        font-family: calibri;
-        display: block;
-        width: 140px;
-        font-size: 18px;
-        text-transform: uppercase;
-        padding: 8px;
-        text-align: center;
-        margin: 20px auto;
-        cursor: pointer;
-    }
-
-</style>
     <body>
         <div class="header">
-            <img src="pic1.png" style="width: 13%">
-            <h1>PRODUCT DISTRIBUTING SUMMARY</h1>
+            <h1>PRODUCTS DISTRIBUTING SUMMARY</h1>
         </div>
-
-        <form>
-            <h1>Enter the time priod</h1><br>
-            <label>From:</label>
-            <input type="date"/> 
-            <label>To:</label>
-            <input type="date"/> <br>
-        </form>
+        <br>
+        <center>
+            <div class="header2">
+                <h2>Get Summary</h2>
+            </div>
+            <div class="header3">
+                <form> 
+                    <br>
+                    <label>From:</label>
+                    <input type="date"/> 
+                    <label>To:</label>
+                    <input type="date"/><br><br><br>
+                    <button class="btn btn-dark" type="submit">Submit</button>
+                </form>
+            </div>
+        </center>
+            
+        <br>
         
-        <div class="summary">
-        <a id="summary">Get Summary</a>
-        </div>
-
         <table>
             <tr>
                 <th>Date/Time</th>
                 <th>Product Name</th>
-                <th>One Product Buying Price</th>
-                <th>One Product Selling Price</th>
+                <th>One Product Buying Price(Rs)</th>
+                <th>One Product Selling Price(Rs)</th>
                 <th>Product Quntity(Boxes/Pieces)</th>
-                <th>Total Product Buying Price</th>
+                <th>Total Product Buying Price(Rs)</th>
                 <th>Total Product Selling Price(Rs)</th>
                 <th>Total Product Profit(Rs)</th>
                 <th>No. of Product Types</th>
                 <th>Sum of Product Quantities(Boxes/Pieces)</th>
+                
             </tr>
-
+            
             <tr>
                 <td>22/03/2020 12.00pm</td>
-                <td>$Munchee Bourbon</td>
+                <td>Munchee Bourbon</td>
                 <td>130.00</td>
                 <td>135.00</td>
                 <td>3Boxes</td>
@@ -113,7 +75,6 @@
                 
             </tr>
             
-           
             <tr>
                 <td>22/03/2020 12.00pm</td>
                 <td>Munchee Choco Cream</td>
@@ -126,9 +87,9 @@
                 <td>3</td>
                 <td>5Boxes</td>
             </tr>
-
+            
         </table>
-
+    
     </body>
 
 </html>
