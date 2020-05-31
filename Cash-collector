@@ -1,0 +1,17 @@
+<html>
+<head>
+<title>Cash Collector</title>
+</head>
+<body>
+<a href="#">Selling inventories</a>
+<br>
+<a href="#">Remaining inventories</a>
+<br>
+<a href="#">Manufacture returns</a>
+<br>
+<a href="#">Warehouse returns</a>
+<br>
+<a href="#">Missing inventories</a>
+<br>
+</body>
+</html>
