@@ -1,0 +1,38 @@
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+body {
+	width: 100%;
+	height: 90vh;
+}
+
+.button {
+	display: block;
+  width: 320px;
+  max-width: 100%;
+  margin: 40px auto;
+  margin-bottom: 0;
+  overflow: hidden;
+  position: relative;
+  transform: translatez(0);
+  text-decoration: none;
+  box-sizing: border-box;
+  font-size: 24px;
+	font-weight: normal;
+	box-shadow: 0 9px 18px rgba(0,0,0,0.2);
+}
+
+.color {
+	text-align: center;
+	border-radius: 50px;
+  padding: 26px;
+  color: white;
+  background: #5890F3;
+  transition: all 0.2s ease-out 0s;
+}
+
+
+
