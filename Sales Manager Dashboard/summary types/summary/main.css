@@ -1,0 +1,79 @@
+body{
+    font-family: arial;
+}
+    
+.header {
+    padding: 20px;
+    text-align: center;
+    background: #343a40;
+    color: #fff;
+}
+    
+.header h1{
+    font-size: 30px;
+    text-align: center;
+}
+    
+.header2 {
+    height: 80px;
+    width: 40%;
+    padding: 5px;
+    text-align: center;
+    background: #343a40;
+    color: #fff;
+    margin: 0px auto;
+}
+    
+.header2 h1{
+    font-size: 20px;
+    text-align: center;
+}
+
+.header3{
+    height: 120px;
+    width: 40%; 
+    padding: 5px;
+    background: #17a2b8;
+    margin: 0px auto;
+}
+
+.date{
+    color: #fff;
+}
+
+
+input[type=date]{
+    width: 40%;
+    height: 20px;
+    padding: 5px;
+    margin: 0px auto;
+}
+
+#submission {
+  text-align: center;
+}
+
+
+table{
+    border-collapse: collapse;
+}
+
+th{
+    text-align: left;
+    background-color: #343a40;
+    color: #fff;
+    padding: 4px 10px 10px 10px;
+}   
+
+
+td{
+    border: 1px solid #e3e3e3;
+    padding: 4px 8px;
+    border-bottom-color: black;
+}
+
+tr:nth-child(odd) td{
+    background-color: #e7edf0;
+}
+    
+    
