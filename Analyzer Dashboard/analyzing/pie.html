@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<script type="text/javascript">
+window.onload = function () {
+	var chart = new CanvasJS.Chart("chartContainer",
+	{
+		title:{
+			text: "Number of sold munchee biscults within month"
+		},
+		legend: {
+			maxWidth: 350,
+			itemWidth: 120
+		},
+		data: [
+		{
+			type: "pie",
+			showInLegend: true,
+			legendText: "{indexLabel}",
+			dataPoints: [
+				{ y: 2000, indexLabel: "lemon puff 7%" },
+				{ y: 4000, indexLabel: "Cheese buttons 14%" },
+				{ y: 2500, indexLabel: "Tikiri marie 8%" },
+				{ y: 5000, indexLabel: "Chocolate cream 17%"},
+				{ y: 6500, indexLabel: "Super cream cracker 22%" },
+				{ y: 8000, indexLabel: "Milk cream 27%"},
+				{ y: 1500, indexLabel: "ginger zing 5%"}
+			]
+		}
+		]
+	});
+	chart.render();
+}
+</script>
+<script type="text/javascript" src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+</head>
+<body>
+<div id="chartContainer" style="height: 300px; width: 100%;"></div>
+</body>
+</html>
