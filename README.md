@@ -7,7 +7,7 @@ Install a web browser and a text editor (Recommended: Google Chrome and VS Code)
 
 ### Installing
 Clone the respository:
-`git clone git@github.com:AromedMedical/aromed-web.git`
+`git clone git@github.com:Hasitha-Lakshan/Inventory-Management-System-Prototype.git`
 
 ## Built With
 * HTML
