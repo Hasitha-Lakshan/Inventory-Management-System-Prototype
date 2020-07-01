@@ -1,3 +1,20 @@
 # Inventory Management System (Prototype)
 
-The prototype application is created by using HTML, CSS, and JS with the Bootstrap framework. This prototype application is helping to get a simple idea about the process and the operations of a product distribution company. Using the prototype application we can develop software which will be able to provide an easy way to track the products, suppliers, customers as well as purchase and sales information. It also records the stocks currently available in the stores and distribution lorries. There are basically four users, Administrator, Analyzer, Inventory manager, and Cash colletor. Basically, the administrator can manage the users, the analyzer can analyze given reports of the sales and make the decision. Also, the inventory manager manages purchase and sales information of inventories and the cash collector can issue invoices for the customers who are purchasing the inventories.
+The prototype application for a web-based inventory management system.
+##
+## Getting Started
+### Prerequisites
+Install a web browser and a text editor (Recommended: Google Chrome and VS Code).
+
+### Installing
+Clone the respository:
+`git clone git@github.com:AromedMedical/aromed-web.git`
+
+## Built With
+* HTML
+* CSS
+* JavaScript
+* Bootstrap
+
+## Authors
+See the detailed list of [contributors](https://github.com/Hasitha-Lakshan/Inventory-Management-System-Prototype/graphs/contributors) who contributed to this project.
