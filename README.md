@@ -1,7 +1,6 @@
 # Inventory Management System (Prototype)
 
 The prototype application for a web-based inventory management system.
-##
 ## Getting Started
 ### Prerequisites
 Install a web browser and a text editor (Recommended: Google Chrome and VS Code).
