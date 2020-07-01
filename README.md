@@ -3,7 +3,7 @@
 The prototype application for a web-based inventory management system.
 ## Getting Started
 ### Prerequisites
-Install a web browser and a text editor (Recommended: Google Chrome and VS Code).
+Install a web browser and a text editor (Recommend: Google Chrome and VS Code).
 
 ### Installing
 Clone the respository:
